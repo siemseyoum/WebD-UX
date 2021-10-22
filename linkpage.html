@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<style>
+
+html {
+  font-size: 10px;
+}
+
+body {
+    font-size:1.9rem;
+    color: #2F4F4F;
+    font-family:avenir, futura, gilisans; 
+    line-height: 1.6;
+}
+
+.logo-and-nav {
+   margin-bottom: 3rem;
+}
+
+.logo-and-nav__logo {background: #0B3142; margin:0; padding:0; color: white; padding: 20px; text-transform:uppercase;}
+.logo-and-nav__links {background:#0CA4A5; padding: 20px; margin:0; padding:0; display:flex; list-style-type: none; flex-wrap:wrap;}
+.logo-and-nav__links li {flex:1; display:flex; border-right:1px solid #444; justify-content: center;}
+.logo-and-nav__links a {display: block; color:white; text-decoration: none; padding: 10px;}
+
+.full-click-cards {
+    padding: 10px;
+}
+
+.card-container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 700px) {
+    .card-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.fc-card {
+    flex: 0 0 32%;
+    background: #eee;
+    margin-right: 1%;
+    margin-bottom: 1rem;
+}
+
+.fc-card * {
+    margin: 0;
+    padding: 10px 0px;
+}
+
+.fc-card a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 10px 0px;
+    width: 100%;
+    min-height: 30vh;
+    overflow: hidden;
+    color: #333;
+    text-decoration: none;
+    /* cuts off extra content */
+    transition: transform 0.2s ease;
+}
+
+.fc-card a:hover {
+    transform: scale(1.1);
+}
+
+.fc-card.style-1 {
+    background-color: #4798ad5f;
+    /* or background images, etc etc */
+}
+
+.fc-card.style-2 {
+    background-color: #4699aeb3;
+    /* or background images, etc etc */
+}
+
+.fc-card.style-3 {
+    background-color: #4798AD;
+    /* or background images, etc etc */
+}
+
+.page-footer {
+    background: #0B3142;
+    min-height: 20vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color:white;
+}
+
+.page-footer a {color: yellow;}
+
+.page-footer .social-media {
+    display: flex;
+    list-style-type: none;
+}
+
+.page-footer .social-media li {
+    padding: 0 1rem;
+}
+
+
+</style>
+
+<html>
+    <nav>
+        <a href="index.html"><p class="logo-and-nav__logo"><img src= "images/logo.png" width="170" height="40"></p>
+    </nav>
+
+    <html>
+  
+            <ul class="logo-and-nav__links">
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="2linkpage.html">WELLBEING</a></li>
+                <li><a href="linkpage.html">SOCIAL</a></li>
+                <li><a href="bpage.html">OTHER</a></li>
+            </ul>
+        </nav>
+
+        <section class="full-click-cards">
+
+            <div class="card-container">
+                <div class="fc-card style-1">
+                    <a href="studentunion.html">
+                        <h2>Student Union</h2>
+        
+                        <p>Go to on campus support</p>
+                    </a>
+                </div>
+                <div class="fc-card style-2">
+                    <a href="sportclubs.html">
+                        <h2>Sports/Clubs</h2>
+        
+                        <p>MMU teams sporting events</p>
+                    </a>
+                </div>
+        
+                <div class="fc-card style-3">
+                    <a href="social.html">
+                        <h2>Social events</h2>
+        
+                        <p>Nights out to socialise with other students</p>
+                    </a>
+                </div>
+                <div class="fc-card style-1">
+                    <a href="experience.html">
+                        <h2>Student experience</h2>
+        
+                        <p>Get student experience</p>
+                    </a>
+                </div>
+                <div class="fc-card style-2">
+                    <a href="cooking.html">
+                        <h2>Cooking skill classes</h2>
+        
+                        <p>Many cooking recipe</p>
+                    </a>
+                </div>
+                <div class="fc-card style-3">
+                    <a href="discount.html">
+                        <h2>Discount/Promo deals</h2>
+        
+                        <p>Campus Discount</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+
+<footer class="page-footer">
+    <ul class="social-media">
+        <li><a href="http://www.https://twitter.com">Twitter</a></li>
+        <li><a href="http://www.https://www.instagram.com">Instagram</a></li>
+        <li><a href="http://www.https://www.facebook.com">Facebook</a></li>
+    </ul>
+
+    <div class="footer-content">
+        <p>Copyright information</p>
+        <!-- this is the minimum disclaimer text. You can modify the classnames and markup as long as the same content is shown to the site visitor -->
+        <div class="mmu-disclaimer">
+            <p>© <a href="http://www.mmu.ac.uk/" title="MMU homepage">MMU 2019</a> ·This is student coursework · Tutor <a href="mailto:r.eskins@mmu.ac.uk">Richard Eskins</a> ·
+                <a href="//validator.w3.org/check?uri=referer" title="W3C HTML Validation Service">Valid HTML</a></p>
+        </div>
+        <!-- end the disclaimer text -->
+    </div>
+
+</footer>
+
+

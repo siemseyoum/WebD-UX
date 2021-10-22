@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<style>
+
+html {
+  font-size: 10px;
+}
+
+body {
+    font-size:1.9rem;
+    color: #2F4F4F;
+    font-family:avenir, futura, gilisans; 
+    line-height: 1.6;
+}    
+
+.logo-and-nav {
+    margin-bottom: 3rem;
+}
+.logo-and-nav__logo {background: #0B3142; margin:0; padding:0; color: white; padding: 20px; text-transform:uppercase;}
+.logo-and-nav__links {background:#0CA4A5; padding: 20px; margin:0; padding:0; display:flex; list-style-type: none; flex-wrap:wrap;}
+.logo-and-nav__links li {flex:1; display:flex; border-right:1px solid #444; justify-content: center;}
+.logo-and-nav__links a {display: block; color:white; text-decoration: none; padding: 10px;}
+
+.big-header {
+    background-color: #E9EAE1(76, 18, 211);
+    min-height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../website/images/help21.jpeg); 
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.big-header__content {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+
+
+/* this .content-column code is common to a lot of these patterns */
+
+.content-column {
+    padding: 40px 20px;
+}
+
+.content-column__content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+/* you can use the .editable-text class to modify the typography for the standard column of content */
+
+.editable-text img {margin: 1rem 0;}
+.editable-text h2 {margin: 0; padding: 1rem 0 0.35rem 0; color: #0892A5;}
+.editable-text h3 {margin: 0; padding: 1rem 0 0.35rem 0; color: #2aa4c9;}
+.editable-text p {margin: 0; padding: 0 0 1rem 0;}
+/* end .content-column code */
+
+.content-column {
+    padding: 40px 20px;
+}
+
+.content-column__content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.page-footer {
+    background: #0B3142;
+    min-height: 10vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.page-footer a {color: yellow}
+
+.page-footer .social-media {
+    display: flex;
+    list-style-type: none;
+}
+
+.page-footer .social-media li {
+    padding: 0 1 rem;
+}
+</style> 
+
+
+<html>
+    <nav class="logo-and-nav">
+        <p class="logo-and-nav__logo"><img src= "images/logo.png" width="170" height="40"></p>
+        <ul class="logo-and-nav__links">
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="2linkpage.html">WELLBEING</a></li>
+            <li><a href="linkpage.html">SOCIAL</a></li>
+            <li><a href="bpage.html">OTHER</a></li>
+        </ul>
+    </nav>
+    
+    <div class="big-header">
+    
+        <div class="big-header__content">
+            <h1>MMU Support Website</h1>
+            <p>We are here for you</p>
+    
+        </div>
+    
+    </div>
+    
+    
+    
+</section>
+
+<section class="content-column">
+    <div class="content-column__content">
+        <div class="editable-text">
+            <h2>Student Support</h2>
+            <p>Here at Manchester Metropolitan University, we provide a variety of support for both on campus face-to-face help and online support for off campus enquires. All to enable you to achieve your best possible experience while studying here and give you the necessary assistance if you need.</p>
+            <p>At MMU we want all our students to achieve their full potential whilst studying with us and also to enjoy the overall university experience as this is a special time in people’s lives. We understand that it can be challenging and stressful time in young people’s lives with leaving home, studying at a higher level or external factors away from the campus.</p> 
+            <p>The University has created this website to assist you to find any help or support for your given situation might require. 
+                If it’s about accommodation we can help finding the right place for you with our residence support. Looking to make you friendships? We got you covered with our social events schedule. Need hardware/tools for those technical assignments? That can be found in our equipment hire section.</p>
+
+            <img src= "images/support-sign.jpeg" alt="road signs pointing in different directions with names of type of support!" />
+
+            <h3>A subheading</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at augue eu erat vulputate dapibus at
+                id
+                nulla. Ut ultricies nisl et commodo lobortis. Nullam aliquet nulla venenatis dictum luctus. Praesent at
+                ante
+                rhoncus, sagittis ante non,
+                rhoncus tortor. Quisque eu imperdiet mi. Ut ultrices odio vel nunc porta, a sollicitudin libero
+                tincidunt.
+                Phasellus id lorem et sapien tincidunt placerat. Ut tempor nulla ac nulla mattis pharetra.</p>
+        </div>
+    </div>
+</section>
+
+<section class="content-column">
+    <div class="content-column__content">
+        
+        <h2>Manchester</h2>
+        <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.openstreetmap.org/export/embed.html?bbox=-2.241302132606507%2C53.46948448061247%2C-2.239247560501099%2C53.4703689806783&layer=mapnik"></iframe>
+        <p><a href="https://www.openstreetmap.org/#map=19/53.46993/-2.24027">View Larger Map</a></p>
+    </div>
+</section>
+
+<footer class="page-footer">
+    <ul class="social-media">
+        <li><a href="http://www.https://twitter.com/ManMetAlumni">Twitter</a></li>
+        <li><a href="http://www.https://www.instagram.com/manmetuni/">Instagram</a></li>
+        <li><a href="http://www.https://www.facebook.com/theunionmmu">Facebook</a></li>
+    </ul>
+    
+    <div class="footer-content">
+        <p>Copyright information</p>
+        <!-- this is the minimum disclaimer text. You can modify the classnames and markup as long as the same content is shown to the site visitor -->
+        <div class="mmu-disclaimer">
+            <p>© <a href="http://www.mmu.ac.uk/" title="MMU homepage">MMU 2019</a> ·This is student coursework · Tutor <a href="mailto:r.eskins@mmu.ac.uk">Richard Eskins</a> ·
+                <a href="//validator.w3.org/check?uri=referer" title="W3C HTML Validation Service">Valid HTML</a></p>
+        </div>
+        <!-- end the disclaimer text -->
+    </div>
+
+</footer>
+       

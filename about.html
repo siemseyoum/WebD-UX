@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<style>
+
+html {
+  font-size: 10px;
+}
+
+body {
+    font-size:1.9rem;
+    color: #2F4F4F;
+    font-family:avenir, futura, gilisans; 
+    line-height: 1.6;
+}
+
+.logo-and-nav {
+   margin-bottom: 3rem;
+}
+
+.logo-and-nav__logo {background: #0B3142; margin:0; padding:0; color: white; padding: 20px; text-transform:uppercase;}
+.logo-and-nav__links {background:#0CA4A5; padding: 20px; margin:0; padding:0; display:flex; list-style-type: none; flex-wrap:wrap;}
+.logo-and-nav__links li {flex:1; display:flex; border-right:1px solid #444; justify-content: center;}
+.logo-and-nav__links a {display: block; color:white; text-decoration: none; padding: 10px;}
+
+/* this .content-column code is common to a lot of these patterns */
+
+.content-column {
+    padding: 40px 20px; 
+}
+
+.content-column__content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* end .content-column code */
+
+/* code for media object */
+
+.media img {
+    border-radius: 50%;
+    max-width: 100px;
+}
+
+@media screen and (min-width: 700px) {
+    .media {
+        display: flex;
+        align-items: flex-start;
+    }
+    .media img {
+        margin-right: 2rem;
+    }
+    .media__content h3 {
+        margin-top: 0;
+    }
+}
+
+/* this .content-column code is common to a lot of these patterns */
+
+.content-column {
+    padding: 40px 20px; 
+}
+
+.content-column__content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* you can use the .editable-text class to modify the typography for the standard column of content */
+
+.editable-text img {margin: 1rem 0;}
+.editable-text h2 {margin:0; padding: 1rem 0 0.35rem 0; color:#0CA4A5;}
+.editable-text h3 {margin:0; padding: 1rem 0 0.35rem 0; color:#2aa4c9;}
+.editable-text p {margin:0; padding: 0 0 1rem 0;}
+/* end .content-column code */
+
+/* this .content-column code is common to a lot of these patterns */
+
+.content-column {
+    padding: 40px 20px; 
+}
+
+.content-column__content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/* end .content-column code */
+
+.page-footer {
+    background: #0B3142;
+    min-height: 10vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.page-footer a {color: yellow}
+
+.page-footer .social-media {
+    display: flex;
+    list-style-type: none;
+}
+
+.page-footer .social-media li {
+    padding: 0 1 rem;
+}
+
+</style>
+
+<html>
+
+    <html>
+        <nav class="logo-and-nav">
+            <a href="../website/index.html"><p class="logo-and-nav__logo"><img src= "images/logo.png" width="170" height="40"></p>
+            <ul class="logo-and-nav__links">
+                <li><a href="index.html">HOMEPAGE</a></li>
+                <li><a href="2linkpage.html">WELLBEING</a></li>
+                <li><a href="linkpage.html">SOCIAL</a></li>
+                <li><a href="bpage.html">OTHER</a></li>
+            </ul>
+        </nav>
+
+        <section class="content-column">
+            <div class="content-column__content">
+        
+                <div class="media">
+                    <img src="https://placeimg.com/480/480/people" alt="avatar, icon or portrait">
+                    <div class="media__content">
+                        <h3>So what support can we provide for you?</h3>
+                        <p><a href="http://www.https://www.mmu.ac.uk/hpsc/about-us/student-support/">MMU Student Support</a> This is a link to the MMU student support homepage. It could be the starting point for you to find the help or assistance you need during your univeristy experience. With help from the faculty of health, psychology and social care to beginning supporting you or in pointing in the right direction exactly what you are looking for. 
+                            .</p>
+                        <p>— Course Rep</p>
+                    </div>
+                </div>
+        
+            </div>
+        </section>
+
+        <section class="content-column">
+            <div class="content-column__content">
+                <div class="editable-text">
+
+                    <img src="images/heretohelp.jpeg" width= "700" height= "500" alt="here to help in writing on blackboard"/>
+                    <h2>ABOUT</h2>
+                    <p>This site is here to support students across Manchester who are studying at Manchester Metropolitan University. To have a one stop website for all the necessary help or assistance that they could need during their time studying with us. The topics are broken into three categories 
+
+                    <p><h3>Wellbeing:</h3>for support with health, mental health or counselling related.</p>
+                        
+                    <p><h3>Social:</h3>that helps with breaking down walls to build friendships with social events, sports clubs or sobrieties.</p>
+                        
+                    <p><h3>Other:</h3>which helps with the finance, accommodation or technical issues that happen during assignments.</p>
+                        </p>
+                    <p>We want to promote the types of support and help to make everyone on our campus aware that we are here to support you in any way we can, to make sure you succeed whilst studying at MMU and get the best experience possible.</p>
+        
+                    
+        
+                    
+                </div>
+            </div>
+        </section>
+        
+        
+
+
+<footer class="page-footer">
+    <ul class="social-media">
+        <li><a href="http://www.https://twitter.com">Twitter</a></li>
+        <li><a href="http://www.https://www.instagram.com">Instagram</a></li>
+        <li><a href="http://www.https://www.facebook.com">Facebook</a></li>
+    </ul>
+
+    <div class="footer-content">
+        <p>Copyright information</p>
+        <!-- this is the minimum disclaimer text. You can modify the classnames and markup as long as the same content is shown to the site visitor -->
+        <div class="mmu-disclaimer">
+            <p>© <a href="http://www.mmu.ac.uk/" title="MMU homepage">MMU 2019</a> ·This is student coursework · Tutor <a href="mailto:r.eskins@mmu.ac.uk">Richard Eskins</a> ·
+                <a href="//validator.w3.org/check?uri=referer" title="W3C HTML Validation Service">Valid HTML</a></p>
+        </div>
+        <!-- end the disclaimer text -->
+    </div>
+
+</footer>
+
+
